@@ -1,4 +1,10 @@
-.logo{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logos{
     width: 200px;
     height: 200px;
 }

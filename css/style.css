@@ -39,3 +39,22 @@ h1{
 .hamburger-meneu{
     width: 100px;
 }
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        display: block;
+        border-left: solid 1px white;
+        
+    }
+  }
+

@@ -1,10 +1,41 @@
+:root {
+    --tekstkleur-text: #1d56ff;
+    --navigatebalk: #000000;
+    --backgound: #5EB1BF;
+    --dachboard: #138A36;
+    --dachboard-2: #04E824;
+}
+h1{
+    color: white;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.logos{
-    width: 200px;
-    height: 200px;
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.background{
+    background-color: var(--navigatebalk);
+}
+.nav{
+    color: var(--tekstkleur-text);
+    padding-right: 20px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+.active{
+    text-decoration: underline;
+}
+.center-nav{
+    display: flex;
+    
+}
+.hamburger-meneu{
+    width: 100px;
 }

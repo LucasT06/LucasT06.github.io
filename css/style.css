@@ -5,43 +5,26 @@
     --dachboard: #138A36;
     --dachboard-2: #04E824;
 }
-h1{
-    color: white;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.logo {
+    width: 70px;
+    height: 70px;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
+section {
+    padding: 60px 0;
 }
 
-.background{
-    background-color: var(--navigatebalk);
-}
-.nav{
-    color: var(--tekstkleur-text);
-    padding-right: 20px;
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 5px;
     text-decoration: none;
-    justify-content: center;
+  }
+  
 
-}
-.active{
-    text-decoration: underline;
-}
-
-.hamburger-meneu{
-    width: 100px;
-}
-.hamburger{
-    border-left: solid 1px white;
-    justify-content: right;
-    align-items: flex-end;
-    
-}
-.nav:hover{
-    color: white;
-}
+  

@@ -1,30 +1,92 @@
 :root {
-    --tekstkleur-text: #1d56ff;
-    --navigatebalk: #000000;
-    --backgound: #5EB1BF;
-    --dachboard: #138A36;
-    --dachboard-2: #04E824;
+  --primary-color: #F20A13; /* Feyenoord rood */
+  --secondary-color: #FFFFFF; /* Wit */
+  --dark-color: #000000; /* Zwart */
+  --light-color: #F2F2F2; /* Licht grijs */
+  --text-color: #1d56ff;
+  --navbar-bg: #000000;
+  --background: #5EB1BF;
+  --dashboard: #138A36;
+  --dashboard-2: #04E824;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--dark-color);
+  background-color: var(--background);
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
-  
-  /* Navbar links */
-  #navbar a {
-    float: left;
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-  }
-  
+.navbar {
+  background-color: var(--navbar-bg);
+}
 
-  
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hero-bg.jpg') center center/cover;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+}
+
+.bg-dark {
+  background-color: var(--dark-color) !important;
+}
+
+.text-white {
+  color: var(--secondary-color) !important;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: var(--primary-color);
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--secondary-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Additional Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+ul li strong {
+  color: var(--primary-color);
+}

@@ -77,16 +77,6 @@ section {
   text-align: center;
 }
 
-/* Additional Styles */
 ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 5px 0;
-}
-
-ul li strong {
-  color: var(--primary-color);
+  list-style: none
 }
